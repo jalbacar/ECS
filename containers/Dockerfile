@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Ann-coursera
+MAINTAINER Ann
 RUN yum -y install httpd
 COPY index.html /var/www/html/
 COPY animal*.jpg /var/www/html/
